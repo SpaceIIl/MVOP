@@ -27,7 +27,7 @@ export default function main() {
           <Paragraph title='Opurtnitn 1' content='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus congue lectus at fermentum pellentesque. Pellentesque ullamcorper, neque vel sagittis posuere, justo ex bibendum ligula, sed scelerisque mauris nulla eget lectus. Nullam ligula libero, aliquet eu tincidunt at, posuere molestie odio. Sed bibendum fermentum orci. Nam a nisl varius, molestie nisi quis, mattis nisi. Nullam sit amet nisl lobortis, pretium sem non, vehicula odio. Duis et semper metus. Nulla eget pretium nunc, non viverra dolor' />
         </div>
         <div className='w-[1080px] mx-auto text-center'>
-          <div className='grid grid-cols-6 gap-6 border-solid border-black border-b'>
+          <div className='grid grid-cols-6 gap-6 border-solid border-black border-b font-semibold text-lg'>
             <div>Burza</div>
             <div>Poplatky obchod</div>
             <div>Poplatky výběr</div>

@@ -16,11 +16,11 @@ const ReviewGrid = (props: IGrid) => {
     return (
         <div className='grid grid-cols-6 gap-6 border-solid border-black border-b'>
             <div className='mx-auto my-auto'><Image src={props.img} alt="" width={100} height={100}/></div>
-            <div className='my-auto'>{props.c2}</div>
-            <div className='my-auto'>{props.c3}</div>
-            <div className='my-auto'>{props.c4}</div>
-            <div className='my-auto'>{props.c5}</div>
-            <div className='my-auto'>{props.c6}</div>
+            <div className='my-auto font-normal text-xl'>{props.c2}</div>
+            <div className='my-auto font-normal text-xl'>{props.c3}</div>
+            <div className='my-auto font-normal text-xl'>{props.c4}</div>
+            <div className='my-auto font-normal text-xl'>{props.c5}</div>
+            <div className='my-auto font-normal text-xl'>{props.c6}</div>
         </div>
     )
 }
