@@ -35,10 +35,10 @@ export default function main() {
             <div>Easy to use</div>
             <div>Last option</div>
           </div>
-          <ReviewGrid img='/Users/space/mvop/frontend/pages/ImgGrid/kraken.png' c2='2' c3='3' c4='4' c5='5' c6='6'/>
-          <ReviewGrid img='/Users/space/mvop/frontend/pages/ImgGrid/kraken.png' c2='2' c3='3' c4='4' c5='5' c6='6'/>
-          <ReviewGrid img='/Users/space/mvop/frontend/pages/ImgGrid/kraken.png' c2='2' c3='3' c4='4' c5='5' c6='6'/>
-          <ReviewGrid img='/Users/space/mvop/frontend/pages/ImgGrid/kraken.png' c2='2' c3='3' c4='4' c5='5' c6='6'/>
+          <ReviewGrid img='/Kraken-Logo.png' c2='2' c3='3' c4='4' c5='5' c6='6'/>
+          <ReviewGrid img='/Coinbase-Logo.wine.png' c2='2' c3='3' c4='4' c5='5' c6='6'/>
+          <ReviewGrid img='/Binance-Vertical-Black-Logo.wine.png' c2='2' c3='3' c4='4' c5='5' c6='6'/>
+          <ReviewGrid img='/Kraken-Logo.png' c2='2' c3='3' c4='4' c5='5' c6='6'/>
         </div>
         <Footer />
       </main>
