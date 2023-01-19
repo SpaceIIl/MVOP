@@ -1,8 +1,15 @@
 import type { NextPage} from 'next'
 import Link from 'next/link'
+import BuyInfo from './BuyInfo'
 import Paragraph from './Paragraph'
+import { useState } from 'react'
 
 const HowToBuyPar: NextPage = () => {
+    const [showTextBuy, setShowTextBuy] = useState(false);
+    const [showTextBuy2, setShowTextBuy2] = useState(false);
+    const [showTextBuy3, setShowTextBuy3] = useState(false);
+    const [showTextBuy4, setShowTextBuy4] = useState(false);
+
     return (
         <div className=''>
             <div className='py-32'>
@@ -11,20 +18,20 @@ const HowToBuyPar: NextPage = () => {
             <div className='bg-black text-white py-32'>
                 <div className=' w-[640px] mx-auto'>
                     <div className='pb-16'>
-                        <h3 className='pb-3'>Nejjednodušší cesta, jak nakoupit</h3>
-                        <p>Kratsi text o tom co se zde muze dozvedet, na teto strance Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi scelerisque luctus velit. Pellentesque arcu. Morbi scelerisque luctus velit. Pellentesque arcu. Morbi scelerisque luctus velit. Pellentesque arcu. </p>
+                        <button onClick={()=> setShowTextBuy(!showTextBuy)}><h3 className='pb-3'>Nejjednodušší cesta, jak nakoupit</h3></button>
+                        {showTextBuy ? <BuyInfo content='sdlfsdkjfkjsdh h ksdjfhksh fdkjh fkjshd kjfhsk h'/> : null}
                     </div>
                     <div className='pb-16'>
-                        <h3 className='pb-3'>Koupit pro delší držení</h3>
-                        <p>Kratsi text o tom co se zde muze dozvedet, na teto strance Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi scelerisque luctus velit. Pellentesque arcu. Morbi scelerisque luctus velit. Pellentesque arcu. Morbi scelerisque luctus velit. Pellentesque arcu. </p>
+                        <button onClick={()=> setShowTextBuy2(!showTextBuy2)}><h3 className='pb-3'>Koupit pro delší držení</h3></button>
+                        {showTextBuy2 ? <BuyInfo content='sdlfsdkjfkjsdh h ksdjfhksh fdkjh fkjshd kjfhsk h'/> : null}
                     </div>
                     <div className='pb-16'>
-                        <h3 className='pb-3'>Obchodovat</h3>
-                        <p>Kratsi text o tom co se zde muze dozvedet, na teto strance Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi scelerisque luctus velit. Pellentesque arcu. Morbi scelerisque luctus velit. Pellentesque arcu. Morbi scelerisque luctus velit. Pellentesque arcu. </p>
+                    <button onClick={()=> setShowTextBuy3(!showTextBuy3)}><h3 className='pb-3'>Obchodovani</h3></button>
+                        {showTextBuy3 ? <BuyInfo content='sdlfsdkjfkjsdh h ksdjfhksh fdkjh fkjshd kjfhsk h'/> : null}
                     </div>
                     <div>
-                        <h3 className='pb-3'>Lorem ipsum dolor sit amet</h3>
-                        <p>Kratsi text o tom co se zde muze dozvedet, na teto strance Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi scelerisque luctus velit. Pellentesque arcu. Morbi scelerisque luctus velit. Pellentesque arcu. Morbi scelerisque luctus velit. Pellentesque arcu. </p>
+                    <button onClick={()=> setShowTextBuy4(!showTextBuy4)}><h3 className='pb-3'>Lmao neco proste</h3></button>
+                        {showTextBuy4 ? <BuyInfo content='sdlfsdkjfkjsdh h ksdjfhksh fdkjh fkjshd kjfhsk h'/> : null}
                     </div>
                 </div>
             </div>
