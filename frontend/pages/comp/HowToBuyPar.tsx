@@ -17,20 +17,20 @@ const HowToBuyPar: NextPage = () => {
             </div>
             <div className='bg-black text-white py-32'>
                 <div className=' w-[640px] mx-auto'>
-                    <div className='pb-16'>
-                        <button onClick={()=> setShowTextBuy(!showTextBuy)}><h3 className='pb-3'>Nejjednodušší cesta, jak nakoupit</h3></button>
+                    <div className='pb-12'>
+                        <button className='mb-3' onClick={()=> setShowTextBuy(!showTextBuy)}><h3>Nejjednodušší cesta, jak nakoupit</h3></button>
                         {showTextBuy ? <BuyInfo content='sdlfsdkjfkjsdh h ksdjfhksh fdkjh fkjshd kjfhsk h'/> : null}
                     </div>
-                    <div className='pb-16'>
-                        <button onClick={()=> setShowTextBuy2(!showTextBuy2)}><h3 className='pb-3'>Koupit pro delší držení</h3></button>
+                    <div className='pb-12'>
+                        <button className='mb-3' onClick={()=> setShowTextBuy2(!showTextBuy2)}><h3>Koupit pro delší držení</h3></button>
                         {showTextBuy2 ? <BuyInfo content='sdlfsdkjfkjsdh h ksdjfhksh fdkjh fkjshd kjfhsk h'/> : null}
                     </div>
-                    <div className='pb-16'>
-                    <button onClick={()=> setShowTextBuy3(!showTextBuy3)}><h3 className='pb-3'>Obchodovani</h3></button>
+                    <div className='pb-12'>
+                        <button className='mb-3' onClick={()=> setShowTextBuy3(!showTextBuy3)}><h3>Obchodovani</h3></button>
                         {showTextBuy3 ? <BuyInfo content='sdlfsdkjfkjsdh h ksdjfhksh fdkjh fkjshd kjfhsk h'/> : null}
                     </div>
                     <div>
-                    <button onClick={()=> setShowTextBuy4(!showTextBuy4)}><h3 className='pb-3'>Lmao neco proste</h3></button>
+                        <button className='mb-3' onClick={()=> setShowTextBuy4(!showTextBuy4)}><h3>Lmao neco proste</h3></button>
                         {showTextBuy4 ? <BuyInfo content='sdlfsdkjfkjsdh h ksdjfhksh fdkjh fkjshd kjfhsk h'/> : null}
                     </div>
                 </div>

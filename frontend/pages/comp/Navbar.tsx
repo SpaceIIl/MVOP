@@ -6,7 +6,6 @@ import NavBuy from './NavBuy';
 const Navbar: NextPage = () => {
   const [showTextBuy, setShowTextBuy] = useState(false);
   const [showTextRev, setShowTextRev] = useState(false);
-
     return (
       <div>
         <nav className='bg-black h-[100px] text-white'>
