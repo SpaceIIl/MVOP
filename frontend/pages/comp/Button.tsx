@@ -1,13 +1,17 @@
-import type { NextPage} from 'next'
 import Link from 'next/link'
 
-const Button: NextPage = () => {
+interface IButton {
+    link: string;
+}
+
+const Button = (props: IButton) => {
     return (
-        <div className=''>
-            <button>
-                <p className='py-4 px-8 bg-orange !text-black'>Chci zjistit více</p>
-            </button>
-        </div>
+        <button className="learn-more">
+            <span className="circle" aria-hidden="true">
+                <span className="icon arrow"></span>
+            </span>
+            <span className="button-text"> <Link className='font-medium' href="{props.link}">Zjistit více</Link> </span>
+        </button>
     )
 }
 

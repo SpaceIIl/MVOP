@@ -1,0 +1,8 @@
+stary button:
+        //<div className=''>
+            //<button>
+                //<p className='py-4 px-8 bg-orange !text-black hover:transition hover:duration-300 hover:bg-opacity-25'>Chci zjistit více</p>
+            //</button>
+        //</div>
+;;
+
