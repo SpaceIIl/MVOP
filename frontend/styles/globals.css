@@ -121,7 +121,7 @@ button {
 
 .NavButton {
   border: none;
-  color: #FAFAFA;
+  color: #b8b8b8;
   background: none;
   position: relative;
 }
@@ -141,7 +141,7 @@ button {
 
 .NavButton:hover {
   transition: 0.35s ease-out;
-  color: #d8d8d8;
+  color: #FAFAFA;
 }
 
 .NavButton:hover:before {
