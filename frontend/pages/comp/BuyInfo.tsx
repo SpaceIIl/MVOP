@@ -6,7 +6,7 @@ interface IBuyInfo {
 
 const BuyInfo = (props: IBuyInfo) => {
     return (
-        <div className=''>
+        <div className='duration-300 transition-all'>
             <p>{props.content}</p>
         </div>
     )
