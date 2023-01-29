@@ -18,7 +18,7 @@ const HowToBuyPar: NextPage = () => {
             <div className='bg-black text-white py-32'>
                 <div className=' w-[640px] mx-auto'>
                     <div className='pb-12'>
-                        <button className='mb-3 NavButton !text-white' onClick={()=> setShowTextBuy(!showTextBuy)}><h3>Nejjednodušší cesta, jak nakoupit</h3></button>
+                        <button className='mb-3 flex justify-between w-[640px]' onClick={()=> setShowTextBuy(!showTextBuy)}><h3 className='NavButton !text-white'>Nejjednodušší cesta, jak nakoupit</h3><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.34317 7.75732L4.92896 9.17154L12 16.2426L19.0711 9.17157L17.6569 7.75735L12 13.4142L6.34317 7.75732Z" fill="currentColor" /></svg></button>
                         {showTextBuy ? <BuyInfo content='sdlfsdkjfkjsdh h ksdjfhksh fdkjh fkjshd kjfhsk h'/> : null}
                     </div>
                     <div className='pb-12'>
