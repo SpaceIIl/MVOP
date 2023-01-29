@@ -18,19 +18,19 @@ const HowToBuyPar: NextPage = () => {
             <div className='bg-black text-white py-32'>
                 <div className=' w-[640px] mx-auto'>
                     <div className='pb-12'>
-                        <button className='mb-3 NavButton' onClick={()=> setShowTextBuy(!showTextBuy)}><h3>Nejjednodušší cesta, jak nakoupit</h3></button>
+                        <button className='mb-3 NavButton !text-white' onClick={()=> setShowTextBuy(!showTextBuy)}><h3>Nejjednodušší cesta, jak nakoupit</h3></button>
                         {showTextBuy ? <BuyInfo content='sdlfsdkjfkjsdh h ksdjfhksh fdkjh fkjshd kjfhsk h'/> : null}
                     </div>
                     <div className='pb-12'>
-                        <button className='mb-3 NavButton' onClick={()=> setShowTextBuy2(!showTextBuy2)}><h3>Koupit pro delší držení</h3></button>
+                        <button className='mb-3 NavButton !text-white' onClick={()=> setShowTextBuy2(!showTextBuy2)}><h3>Koupit pro delší držení</h3></button>
                         {showTextBuy2 ? <BuyInfo content='sdlfsdkjfkjsdh h ksdjfhksh fdkjh fkjshd kjfhsk h'/> : null}
                     </div>
                     <div className='pb-12'>
-                        <button className='mb-3 NavButton' onClick={()=> setShowTextBuy3(!showTextBuy3)}><h3>Obchodovani</h3></button>
+                        <button className='mb-3 NavButton !text-white' onClick={()=> setShowTextBuy3(!showTextBuy3)}><h3>Obchodovani</h3></button>
                         {showTextBuy3 ? <BuyInfo content='sdlfsdkjfkjsdh h ksdjfhksh fdkjh fkjshd kjfhsk h'/> : null}
                     </div>
                     <div>
-                        <button className='mb-3 NavButton' onClick={()=> setShowTextBuy4(!showTextBuy4)}><h3>Lmao neco proste</h3></button>
+                        <button className='mb-3 NavButton !text-white' onClick={()=> setShowTextBuy4(!showTextBuy4)}><h3>Lmao neco proste</h3></button>
                         {showTextBuy4 ? <BuyInfo content='sdlfsdkjfkjsdh h ksdjfhksh fdkjh fkjshd kjfhsk h'/> : null}
                     </div>
                 </div>
