@@ -10,11 +10,11 @@ interface ICard {
 
 const Card = (props: ICard) => {
     return (
-        <div className='w-[380px] bg-opacity-10 bg-white p-8'>
-            <h3 className='pb-3'>
+        <div className='w-[380px] bg-darkGrey p-8 BoxShadow'>
+            <h3 className='pb-4 font-bold'>
                 {props.title}
             </h3>
-            <p className=''>
+            <p className='pb-8'>
                 {props.content}
             </p>
             <Button link={props.link}/>

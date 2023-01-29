@@ -9,7 +9,7 @@ interface Iparagraph {
 const Paragraph = (props: Iparagraph) => {
     return (
         <div className='w-[640px] mx-auto'>
-            <h3 className='pb-3'>
+            <h3 className='pb-3 font-medium'>
                 {props.title}
             </h3>
             <p className=''>
