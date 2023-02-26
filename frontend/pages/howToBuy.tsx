@@ -1,12 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import Navbar from './comp/Navbar'
 import Footer from './comp/Footer'
 import HowToBuyPar from './comp/HowToBuyPar'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export default function main() {
   return (

@@ -1,13 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import Navbar from './comp/Navbar'
 import Footer from './comp/Footer'
 import Paragraph from './comp/Paragraph'
 import ReviewGrid from './comp/ReviewGrid'
-
-const inter = Inter({ subsets: ['latin'] })
+import Button from './comp/Button'
 
 export default function main() {
   return (
@@ -24,7 +22,8 @@ export default function main() {
       <main className="main">
         <Navbar />
         <div className='py-32'>
-          <Paragraph title='Opurtnitn 1' content='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus congue lectus at fermentum pellentesque. Pellentesque ullamcorper, neque vel sagittis posuere, justo ex bibendum ligula, sed scelerisque mauris nulla eget lectus. Nullam ligula libero, aliquet eu tincidunt at, posuere molestie odio. Sed bibendum fermentum orci. Nam a nisl varius, molestie nisi quis, mattis nisi. Nullam sit amet nisl lobortis, pretium sem non, vehicula odio. Duis et semper metus. Nulla eget pretium nunc, non viverra dolor' />
+          <Paragraph title='Kraken - osobní favorit' content='Můj osobní favorit, už jen kvůli jednoduchosti a nejnižším poplatkům, jak pří výběru tak při koupi u větší burzy.' />
+          <div className='w-[640px] mx-auto mt-4'><Button link='/BlogKraken'/></div>
         </div>
         <div className='w-[1080px] mx-auto text-center'>
           <div className='grid grid-cols-6 gap-6 border-solid border-black border-b font-semibold text-lg'>

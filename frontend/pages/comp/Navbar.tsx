@@ -1,4 +1,4 @@
-import type { NextPage} from 'next'
+import type { NextPage } from 'next'
 import Link from 'next/link'
 import { useState } from 'react'
 import NavBuy from './NavBuy';
@@ -15,16 +15,14 @@ const Navbar: NextPage = () => {
             </div>
             <div className="my-auto flex">
               <div className='bg-black mr-10'>
-                <button className='NavButton' onClick={()=> setShowTextBuy(!showTextBuy)}>Jak Nakoupit</button> 
+                <Link className='bg-black' href="/howToBuy"><p className='NavButton'>Jak Nakoupit</p></Link> 
               </div>
               <div className='bg-black'>
-                <button className='NavButton' onClick={()=> setShowTextRev(!showTextRev)}>Recenze</button>
+                <Link className='bg-black' href="/Review"><p className='NavButton'>Recenze</p></Link>
               </div>
             </div>
           </div>
         </nav>
-        {showTextBuy ? <NavBuy /> : null}
-        {showTextRev ? <NavBuy /> : null}
       </div>
     )
 }

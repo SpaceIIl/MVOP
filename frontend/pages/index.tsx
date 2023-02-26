@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import Navbar from './comp/Navbar'
 import Home from './comp/Home'
@@ -8,9 +7,33 @@ import AboutPageHome from './comp/AboutPageHome'
 import ParAboutHome from './comp/ParAboutHome'
 import Footer from './comp/Footer'
 
-const inter = Inter({ subsets: ['latin'] })
+// import { gql } from "@apollo/client";
+// import client from "../apollo-client";
 
-export default function main() {
+// export async function getStaticProps({ blogDescription, blog }: { blogDescription: string, blog: string }) {
+//   const { data } = await client.query({
+//     query: gql`
+//     query blog {
+//       blog(where: {id: "cle0gf5622jfm0cus2tp7225j"}) {
+//         blogDescription
+//         blogHeading
+//         blogRichText {
+//           text
+//         }
+//         id
+//       }
+//     }    
+    
+//     `,
+//   });
+
+//   return {
+//     blogblogDescription: data.blog.blogDescription,
+//     blog: data
+//  }
+// }
+
+export default function main({}) {
   return (
     <>
       <Head>
@@ -24,6 +47,16 @@ export default function main() {
       </Head>
       <main className="main">
         <Navbar />
+        {/* <div>
+          {blog.map(() => (
+            <div>
+              <h3>{blog.blogDescription}</h3>
+              <p>
+                xd
+              </p>
+            </div>
+          ))}
+        </div> */}
         <Home />
         <AboutPageHome />
         <ParAboutHome />

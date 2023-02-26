@@ -12,11 +12,11 @@ const Footer: NextPage = () => {
                 </div>
                 <div className='w-52'>
                     <h5 className='pb-3'>Kontakt</h5>
-                    <p className=''>ssome adresa</p>
+                    <p className=''>hruska.ja.2019@skola.ssps.cz</p>
                 </div>
                 <div className='w-52'>
                     <h5 className='pb-3'>Donate</h5>
-                    <p className=''>ssome adresa jh gsdjhgsjh gjhsg jsj gsjhg j gjh</p>
+                    <p className=''>bc1qkvcegwm7w0ltcye6fwj<br/>s03e0dg09vx9dec5c2j</p>
                 </div>
             </div>
         </div>
