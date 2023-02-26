@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Navbar from './comp/Navbar'
 import Footer from './comp/Footer'
-import kraken from './Img/kraken.png'
+import binance from './Img/binance.png'
 import Paragraph from '../pages/comp/Paragraph'
 
 export default function main() {
@@ -21,37 +21,46 @@ export default function main() {
       <main className="main">
         <Navbar />
         <div className='w-[1080px] mx-auto py-24'>
-            <Image className='mx-auto pb-20' src={kraken} alt="" width={800} />
+            <Image className='mx-auto pb-20' src={binance} alt="" width={800} />
             <div className='w-[640px] mx-auto'>
-              <Paragraph title='Kraken' content='Mezi nejstaršími kryptoměnovými obchodními platformami na světě se řadí burza Kraken, která sídlí v Americe. Byla založena Jesse Powellem a jeho společností Payward, Inc. po dvouletém vývoji v září 2013. Kraken nabízí obchodování s dvacítkou předních kryptoměn a díky dennímu objemu obchodů v rozmezí 100 až 130 milionů dolarů má dobrou likviditu.
-Kraken patří mezi jednu z nejbezpečnějších kryptoměnových burz na světě podle hodnocení ICORating Agency. Tato obchodní platforma uskutečnila celou řadu akvizic menších burz a směnáren, například digitálního tržiště CaVirtEx, CleverCoin a CryptoWatch.
+              <Paragraph title='Binance' content='Binance je největší kryptoměnová burza na světě, která je již mnoholet velmi populární. Na Binance jsou registrovány miliony obchodníků z celého světa a denně se zde obchoduje s nepředstavitelně velkýmičástkami peněz.
+Binance je oblíbená zejména pro obchodování s kryptoměnami, ale mnoho lidí zde kryptoměny také nakupuje. Vzhledem k tomu, že nákup kryptoměn na Binance může být pro začátečníky poměrně obtížný, rozhodl jsem se připravit tento článek. Je to průvodce, který vás krok za krokem provede celým procesem nákupu.
+Pokud vás tedy zajímá, jak nakoupit kryptoměny na Binance, jste na správném místě.
 ' />
-              <Paragraph title='Platforma kraken' content='Burzu Kraken můžete najít na adrese trade.kraken.com. Platforma nabízí order book a řadu různých obchodních příkazů (stop loss, stop order, take profit a další).
-Graf vypadá jako upravená verze TradingView a umožňuje vám zanášet poznámky, linie supportu a rezistence nebo Fibonacciho linie. Skalování osy y lze snadno změnit na logaritmické nebo procentuální a je k dispozici řada pokročilých analytických nástrojů.
-Na burze můžete zadávat skryté příkazy (hidden orders), ale pouze bez pákového efektu.
-Kraken také nabízí oficiální mobilní aplikaci, která působí velmi jednoduše a rychle.
+              <Paragraph title='Vlastníte nějakou peněženku?' content='Přesněji řečeno peněženku na kryptoměny - pokud hodláte obchodovat s kryptoměnami na Binance (a držet je tam), nemusíte se o ni v tuto chvíli starat.
+Pokud se však na Binance registrujete s úmyslem kryptoměny pouze nakupovat a čekat, až jejich hodnota vzroste, pak bych vám rozhodně doporučil peněženku si pořídit.
+Kryptoměny jsou jako peníze a je třeba je uchovávat v bezpečí, proto nedoporučuju držet kryptoměny na burzách/účetních místech po dlouhou dobu. Není to totiž bezpečné ;viz to, co se stalo 8. května 2019. Burza Binance byla vykradena a celkem bylo odcizeno 7000 bitcoinů v hodnotě přibližně 40 milionů USD. Binance má však vlastní fond na ochranu majetku, což znamená, že uživatelé o své bitcoiny nepřišli a všechny byly získány zpět.
+Kryptoměny lze bezpečně uložit například pomocí softwarové peněženky Exodus (zdarma) nebo ultra bezpečné hardwarové peněženky Trezor (cca 1 800 Kč). K dispozici jsou samozřejmě i další možnosti a typy peněženek.
+Na konci článku vám ukážu, jak kryptoměny do peněženky Exodus okamžitě převést. Pokud tedy chcete zopakovat náš postup, můžete si zřídit kryptoměnovou peněženku Exodus.
 ' />
-              <Paragraph title='Obchodování na burze kraken' content='V době psaní článku umožňuje Kraken obchodování s 25 předními kryptoměnami; chybí zde ale známé kryptoměny, jako např. Cardano nebo Polkadot. V květnu 2019 provozovatelé z burzy vyřadili Bitcoin SV na protest proti chování Craiga Wrighta, zakladatele nechvalně známého forku BTC SV.
-Velkou výhodou na Krakenu je podpora fiat transakcí. Burza podporuje nákup i prodej digitálních tokenů nejen za stablecoin USDT, ale i za fiat měny USD, GBP, EUR, CAD a JPY. Ty můžete rovněž vkládat na svůj obchodní účet bankovním převodem.
-Obchodovat můžete také s margin pozicemi a využívat pákový efekt. Jeho velikost se liší podle obchodovaného aktiva. U některých párů (XRP/EUR) je možné využít až 5násobnou páku.
-Prostřednictvím limitních příkazů (limit orders) dovoluje Kraken obchodování BTC a ETH – můžete je obchodovat mezi sebou nebo za klasické měny. Otevření margin pozice burza nepovoluje a minimální vklad činí dolarový ekvivalent 50 BTC nebo 2 500 ETH.
-Prostřednictvím futures je pak možné obchodovat s vysokým, až 50násobným pákovým efektem.
-Platforma nepodporuje přijímání tokenů z ICOs ani nově vzniklých kryptoměn pomocí hard forků.
+              <Paragraph title='Nákup kryptoměny na Binance' content='Pro nákup kryptoměny na jakékoli burze nebo burze se musíte zaregistrovat. Tím samozřejmě začínáte. Pojďme začít! 
+Krok 1: Přejděte na stránku burzy Binance, klikněte na tlačítko Registrovat. Dále budete muset vyplnit svůj e-mail, heslo, získat své osobní klientské číslo pomocí krátkého formuláře zde a také projít jednoduchým bezpečnostním formulářem.
+Jakmile dokončíte celý proces registrace a potvrdíte e-mail, který vám Binance zaslala, můžete se přihlásit.
+Krok 2: Ihned po prvním přihlášení budete vyzváni k zapnutí dvoufaktorového ověřování (2FA). To znamená, že každé přihlášení budete muset potvrdit prostřednictvím SMS nebo Google Authenticator. Pokud chcete dále zvýšit zabezpečení svého účtu, důrazně doporučuji zapnout 2FA. Pokud tak nechcete učinit, můžete tuto bezpečnostní funkci přeskočit pomocí tlačítka "Prozatím přeskočit".
+Pokud tento krok přeskočíte nebo zapnete 2FA, budete na konci přesměrováni na platformu Binance, konkrétně na údaje o svém účtu.
+Nejprve však budete muset na svůj obchodní účet vložit nějakou částku, a to buď v BTC, nebo třeba v USDT.
 ' />
-              <Paragraph title='Zabezpečení kryptoměnové burzy Kraken' content='V lednu 2021 agentura ICORating zařadila (v hodnocení více než 150 platforem) Kraken mezi trojici nejbezpečnějších kryptoměnových burz světa. O důkladném zabezpečení platformy svědčí fakt, že úspěšný hackerský útok se jí – na rozdíl např. od burz Mt. Gox nebo nově i Binance – zatím vyhýbá.
-Základem zabezpečení je multifaktorová autentizace (MFA), kterou uživatelé provádějí přes autentizační aplikace na smartphonu: provozovatelé burzy doporučují např. Google Authenticator (dostupný v Google Play i App Store) nebo hardwarové zařízení YubiKey.
-Důležitou bezpečnostní funkcí je Global Setting Lock (GSL). V případě, že útočník dokáže MFA pronikout, znemožní mu GSL změnit heslo a e-mail, vybrat peníze nebo vypnout MFA. Trvání GSL je omezené časově, tzn. po určitém počtu dní (lze nastavit) se všechny tyto funkce zpřístupní.
-Potřebujete-li např. změnit heslo ihned, můžete využít tzv. Master Key, se kterým lze MFA i GSL ochranu obejít.
-Kraken umožňuje krátkodobé uložení kryptoměn, osobní softwarovou peněženku v klasickém slova smyslu ale neposkytují. Samotný provozovatel doporučuje využít hardwarové peněženky. Uložení všech kryptoměn obchodovatelných na Krakenu podporuje např. Trezor.
- ' />
-              <Paragraph title='Poplatky na burze Kraken' content='Ceny poplatků na burze závisejí na celkovém objemu aktiv obchodovaných za posledních 30 dní. Kraken používá kurzový přepočet jednotlivých kryptoměn na americké dolary. Obecně lze říci, že poplatky na burze Kraken jsou velmi nízké a konkurenceschopné.
-Za vklady a výběry peněz se účtují poplatky, které se liší podle měny a způsobu převodu. Burza Kraken přijímá výhradně elektronické transakce.
-Kraken neúčtuje poplatky za swap ani spread; vybraná částka bývá zpravidla připsána na účet během 1 až 5 pracovních dnů.
- ' />
-              <Paragraph title='Výhody a nevýhody burzy' content='Mezi klíčové výhody burzy patří pečlivá zabezpečení a vysoká důvěryhodnost - Kraken se stal první kryptoměnovou burzou, která nechala nezávisle prověřit své finanční rezervy a zveřejnila výsledky auditu. Díky němu je možné spoléhat na dostatečnou kapitalizaci burzy.
-Vysoká likvidita umožňuje na Kraken obchodovat s velkými částkami, zatímco levné vklady (zejména v EUR) pomáhají nováčkům vstoupit do světa kryptoměn. Začátečníci mohou také využít propracovaného průvodce, který vysvětluje burzovní terminologii na praktických příkladech.
-Samozřejmě, Kraken má také své nevýhody. Mezi ty hlavní patří omezený výběr podporovaných kryptoměn a poměrně špatná zákaznická podpora; někteří uživatelé si stěžují, že na odpověď od burzy musí čekat několik dní, dokonce i několik týdnů.
-Kromě toho mají provozovatelé burzy přístup k privátním klíčům uživatelských účtů. Nicméně burza svým klientům doporučuje, aby co nejrychleji převedli své prostředky do zabezpečené aplikace.
+              <Paragraph title='Jak si tedy kryptoměny koupit?' content='Krok 3: Chcete-li obchodovat s kryptoměnami na Binance, musíte je tam koupit nebo poslat z jiné burzy/směny/peněženky. Tato část ukazuje skutečný nákup pomocí debetní karty. Nejprve klikněte na položku Fondy a až se objeví nabídka, klikněte na položku Koupit kreditní kartou.
+Nyní budete přesměrováni na formulář pro nákup. Zde si můžete vybrat z kryptoměn, které jsou v současné době k dispozici k nákupu - Bitcoin, Litecoin, XRP (Ripple) a Ethereum. Můžete si zde také vybrat, zda chcete kryptoměny koupit v dolarech nebo v eurech.
+Měli byste proto zvážit, co je pro vás výhodnější. Jako příklad uvedu, že jste si koupili kryptoměnu BTC za 50 USD. Založením příkazu k nákupu kryptoměn však nákup nekončí, ale začíná.
+Jak vidíte z nákupního formuláře, v době psaní tohoto článku činil poplatek za nákup kreditní kartou na Binance 3,5 %. To se však v průběhu času změní, takže v době, kdy budete číst tento článek, se poplatky již mohly změnit.
+Krok 4: Kliknutím na tlačítko Koupit nyní ve výše uvedeném formuláři se dostanete na stránku, kde již probíhá nákup. Nákup je zabezpečen službou Simplex, třetí stranou, která je zodpovědná za platbu. Pokud jste u společnosti Simplex ještě nikdy nenakupovali, budete muset projít ověřovacím procesem, který zabere jen několik minut. Nejprve bude třeba ověřit a vyplnit následující údaje: vaše jméno, místo a telefonní číslo.
+Dále je třeba ověřit pravost zadané e-mailové adresy a telefonního čísla.
+Nyní, před závěrečným procesem ověření (odesláním dokumentů), vás čeká samotná platba kryptoměny. Zde jednoduše zadáte údaje o své debetní nebo kreditní kartě, známé online nakupujícím, potvrdíte transakci a objednávka nákupu kryptoměn bude zadána!
+Krok 5: Posledním a nejdelším krokem v procesu ověřování je ověření totožnosti zákazníka. Jedná se stále o stejný proces, ale rozhodl jsem se tento krok oddělit. Zde musí být ověřena vaše totožnost, stejně jako je tomu například u CoinMate a Coinbase. Je to z právních důvodů a kvůli ochraně před praním špinavých peněz.
+Ověření totožnosti vyžaduje občanský průkaz/pas/řidičský průkaz. Příslušný doklad (v našem případě občanský průkaz) z obou stran čitelně vyfoťte a nahrajte do systému pomocí tlačítka pro výběr souboru. Nakonec přepište číslo a datum platnosti příslušného dokladu.
+Poté klikněte na tlačítko Nahrát doklad a je hotovo.
+Krok 6: Pokud byl váš účet úspěšně ověřen a platba kryptoměnou proběhla bez problémů, zobrazí se vám stránka. Kde budete vráceni ze Simplexu na burzu Binance a systém se vás zeptá, zda byla platba dokončena. Pokud ne, můžete platbu zopakovat. Poté budete muset několik minut počkat, než bude transakce potvrzena a kryptoměna bude na vašem účtu.
+To je vše - kryptoměnu jste na Binance úspěšně nakoupili.
+V okamžiku, kdy je transakce potvrzena, objeví se ve vaší historii transakcí a nakoupená kryptoměna se objeví také ve vašem přehledu zůstatků.
+' />
+              <Paragraph title='Odesílání kryptoměn z Binance do peněženky Exodus' content='Kryptoměnu není vhodné ukládat na burze nebo směnárně. Vždy ji přesuňte do vlastní peněženky, pokud s ní neplánujete obchodovat. K tomu můžete použít peněženku Exodus zmíněnou na začátku tohoto článku.
+Chcete-li vybrat kryptoměnu, stačí v přehledu zůstatků kliknout na možnost Withdraw (u příslušné kryptoměny).
+Budete přesměrováni na formulář pro výběr kryptoměny. Zde zadejte adresu peněženky, do které chcete kryptoměnu poslat.
+Tyto informace poskytuje sama peněženka Exodus v údajích o peněžence BTC. Při žádosti o výběr z Binance se k potvrzení žádosti použije také e-mailová adresa. Jak vidíte, burza bere zabezpečení opravdu vážně.
+
+
+V našem případě byla kryptoměna převedena asi za 10 minut, což bylo opravdu rychle. Kryptoměny jsou v bezpečí a nákup byl uskutečněn. Doufám, že vám tento průvodce nákupem kryptoměn na burze Binance pomůže a celý proces vám usnadní.
 ' />
             </div>
         </div>

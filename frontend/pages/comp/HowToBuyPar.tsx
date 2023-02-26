@@ -15,18 +15,18 @@ const HowToBuyPar: NextPage = () => {
                 <div className=' w-[640px] mx-auto'>
                     <div className='pb-12'>
                         <h3 className='mb-3 !text-white'>Jak nejjednodušeji nakoupit</h3>
-                        <p>khgjhgkjhgkhgkjhgkhjgkjh gkjh gkjhgkhjgkjhgk gkjhgkhjgkjhgkjhgkjhg kjhgkjhgkjhgkhjgk gkjhgkjhg khjgkjhgkjhgkjhgkhjgkhjgk jgkjhgkjhgkjhgkjhg </p>
-                        <div className='mt-4'><Button link='/' /></div>
+                        <p>Zajímá tě jen nejsnazší cesta jak nakoupit krok za krokem?</p>
+                        <div className='mt-4'><Button link='/BlogBinance' /></div>
                     </div>
                     <div className='pb-12'>
                         <h3 className='mb-3 !text-white'>Koupit pro delší držení</h3>
-                        <p>khgjhgkjhgkhgkjhgkhjgkjh gkjh gkjhgkhjgkjhgk gkjhgkhjgkjhgkjhgkjhg kjhgkjhgkjhgkhjgk gkjhgkjhg khjgkjhgkjhgkjhgkhjgkhjgk jgkjhgkjhgkjhgkjhg </p>
-                        <div className='mt-4'><Button link='/' /></div>
+                        <p>Chceš si nakoupit za levno a pak si to držet na své peněžence?</p>
+                        <div className='mt-4'><Button link='/BlogBinance' /></div>
                     </div>
                     <div className='pb-12'>
                         <h3 className='mb-3 !text-white'>Obchodovani</h3>
-                        <p>khgjhgkjhgkhgkjhgkhjgkjh gkjh gkjhgkhjgkjhgk gkjhgkhjgkjhgkjhgkjhg kjhgkjhgkjhgkhjgk gkjhgkjhg khjgkjhgkjhgkjhgkhjgkhjgk jgkjhgkjhgkjhgkjhg </p>
-                        <div className='mt-4'><Button link='/' /></div>
+                        <p>Jde ti jen o co nejnižší poplatky pro obchodování?</p>
+                        <div className='mt-4'><Button link='/BlogBinance' /></div>
                     </div>
                 </div>
             </div>
