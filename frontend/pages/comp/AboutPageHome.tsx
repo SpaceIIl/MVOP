@@ -10,10 +10,10 @@ const AboutPageHome: NextPage = () => {
             <div className='w-[640px] mx-auto'>
                 <div className='pb-16'>
                     <div className='pt-16 flex justify-start'>
-                        <Card title='Jak Nakoupit' content='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus congue lectus at fermentum pellentesque.  Vivamus congue lectus at fermentum pellentesque. Pellentesque ullamcorper, Nullam sit amet nisl lobortis, hdgfhg pretium sem non, vehicula odio. Duis et semper metus. Nulla eget pretium nunc, non viverra dolor jakoby jono poggers' link='/howToBuy'/>
+                        <Card title='Jak Nakoupit' content='Nakupuješ poprvé? Nevíš kde a jak? Zajímá tě cesta, která bude pro tebe ta nejideálnější? Nebo se chceš jen inspirovat jaké jsou možnosti? Tak to jsi na správném místě!' link='/howToBuy'/>
                     </div>
                     <div className='pt-16 flex justify-end'>
-                        <Card title='Recenze' content='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus congue lectus at fermentum pellentesque.  Vivamus congue lectus at fermentum pellentesque. Pellentesque ullamcorper, Nullam sit amet nisl lobortis, hdgfhg pretium sem non, vehicula odio. Duis et semper metus. Nulla eget pretium nunc, non viverra dolor' link='/Review'/>
+                        <Card title='Recenze' content='Už se vyznáš? A jen tě zajímá můj upřímný názor na produkty týkající se bitcoinu? Zde se dozvíš všechno potřebné z pohledu zkušeného uživatele.' link='/Review'/>
                     </div>
                 </div>
             </div>

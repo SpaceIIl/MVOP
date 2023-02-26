@@ -9,7 +9,7 @@ const HowToBuyPar: NextPage = () => {
     return (
         <div className=''>
             <div className='py-32'>
-                <Paragraph title='Opurtnitn 1' content='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus congue lectus at fermentum pellentesque. Pellentesque ullamcorper, neque vel sagittis posuere, justo ex bibendum ligula, sed scelerisque mauris nulla eget lectus. Nullam ligula libero, aliquet eu tincidunt at, posuere molestie odio. Sed bibendum fermentum orci. Nam a nisl varius, molestie nisi quis, mattis nisi. Nullam sit amet nisl lobortis, pretium sem non, vehicula odio. Duis et semper metus. Nulla eget pretium nunc, non viverra dolor' />
+                <Paragraph title='Jak nakoupit' content='Nakupuješ poprvé? Nevíš kde a jak? Zajímá tě cesta, která bude pro tebe ta nejideálnější? Nebo se chceš jen inspirovat jaké jsou možnosti? Tak to jsi na správném místě!' />
             </div>
             <div className='bg-black text-white py-32'>
                 <div className=' w-[640px] mx-auto'>
@@ -30,9 +30,9 @@ const HowToBuyPar: NextPage = () => {
                     </div>
                 </div>
             </div>
-            <div className='py-32'>
+            {/* <div className='py-32'>
                 <Paragraph title='Opurtnitn 1' content='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus congue lectus at fermentum pellentesque. Pellentesque ullamcorper, neque vel sagittis posuere, justo ex bibendum ligula, sed scelerisque mauris nulla eget lectus. Nullam ligula libero, aliquet eu tincidunt at, posuere molestie odio. Sed bibendum fermentum orci. Nam a nisl varius, molestie nisi quis, mattis nisi. Nullam sit amet nisl lobortis, pretium sem non, vehicula odio. Duis et semper metus. Nulla eget pretium nunc, non viverra dolor' />
-            </div>
+            </div> */}
         </div>
     )
 }

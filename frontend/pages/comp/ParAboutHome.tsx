@@ -5,7 +5,7 @@ import Paragraph from './Paragraph'
 const ParAboutHome: NextPage = () => {
     return (
         <div className='py-32'>
-            <Paragraph title='O webu' content='Kratsi text o tom co se zde muze dozvedet, na teto strance Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi scelerisque luctus velit. Pellentesque arcu. Morbi scelerisque luctus velit. Pellentesque arcu. Morbi scelerisque luctus velit. Pellentesque arcu. Morbi scelerisque luctus velit. Pellentesque arcu. Morbi scelerisque luctus velit. Pellentesque arcu. Morbi scelerisque luctus velit. Pellentesque arcu. Morbi scelerisque luctus velit. Pellentesque arcu. Morbi scelerisque luctus velit. Pellentesque arcu. Morbi scelerisque luctus velit. Pellentesque arcu. Morbi scelerisque luctus velit. Pellentesque arcu. Morbi scelerisque luctus velit. Pellentesque arcu. Morbi scelerisque luctus velit. Pellentesque arcu. Morbi scelerisque luctus velit. Pellentesque arcu. ' />
+            <Paragraph title='O mně' content='Web vznikl, jako maturitní projekt. První zárodek se mi prohnal hlavou, když jsem si uvědomil, že neznám žádný pořádně udělaný web bez nějakého sponzora, který by byl u recenzí apod. upřednostňován. Kupříkladu na platformě Youtube je dostatek nestranného kvalitního obsahu, ale ve formě webu tomu tak není. Troufám si tedy říct, že bitcoinu dostatečně rozumím, abych byl schopen předat znalosti dál. Už tak jsem pár lidem pomohl nakoupit a porozumět této problematice.' />
         </div>
     )
 }
