@@ -30,14 +30,13 @@ export default function main() {
             <div>Burza</div>
             <div>Poplatky obchod</div>
             <div>Poplatky výběr</div>
+            <div>Friendly UI</div>
+            <div>Povědomí</div>
             <div>KYC</div>
-            <div>Easy to use</div>
-            <div>Last option</div>
           </div>
-          <ReviewGrid img='/Kraken-Logo.png' c2='2' c3='3' c4='4' c5='5' c6='6'/>
-          <ReviewGrid img='/Coinbase-Logo.wine.png' c2='2' c3='3' c4='4' c5='5' c6='6'/>
-          <ReviewGrid img='/Binance-Vertical-Black-Logo.wine.png' c2='2' c3='3' c4='4' c5='5' c6='6'/>
-          <ReviewGrid img='/Kraken-Logo.png' c2='2' c3='3' c4='4' c5='5' c6='6'/>
+          <ReviewGrid img='/Kraken-Logo.png' c2='10' c3='10' c4='10' c5='6' c6='Yes'/>
+          <ReviewGrid img='/Coinbase-Logo.wine.png' c2='6' c3='8' c4='10' c5='9' c6='Yes'/>
+          <ReviewGrid img='/Binance-Vertical-Black-Logo.wine.png' c2='8' c3='4' c4='7' c5='10' c6='Yes'/>
         </div>
         <Footer />
       </main>
