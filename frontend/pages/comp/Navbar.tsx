@@ -1,15 +1,11 @@
 import type { NextPage } from 'next'
 import Link from 'next/link'
-import { useState } from 'react'
-import NavBuy from './NavBuy';
 
 const Navbar: NextPage = () => {
-  const [showTextBuy, setShowTextBuy] = useState(false);
-  const [showTextRev, setShowTextRev] = useState(false);
     return (
       <div>
         <nav className='bg-black h-[100px] text-white'>
-          <div className='w-[1080px] mx-auto pt-[38px] flex justify-between'>
+          <div className='xl:w-[1000px] mx-auto pt-[38px] flex justify-between lg:w-[700px]'>
             <div className='flex my-auto'>
               <Link className='bg-black' href="/"><h5 className='NavButton !text-white'>AboutBitcoin.cz</h5></Link>
             </div>
