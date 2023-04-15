@@ -5,6 +5,56 @@ import Navbar from './comp/Navbar'
 import Footer from './comp/Footer'
 import HowToBuyPar from './comp/HowToBuyPar'
 
+// import React from 'react';
+// import { useQuery } from '@apollo/client';
+
+// import { gql } from '../api/gql';
+
+// const Blog = gql(/* GraphQL */ `
+// query blog {
+//   blog(where: {id: "cle0gf5622jfm0cus2tp7225j"}) {
+//     blogDescription
+//     blogHeading
+//     blogRichText {
+//       text
+//     }
+//     id
+//   }
+// `);
+
+// export default function BlogPage() {
+//   // our query's result, data, is typed!
+//   const { loading, data } = useQuery(
+//     Blog,
+//     // variables are also typed!
+//     { variables: { id: "cle0gf5622jfm0cus2tp7225j" } }
+//   );
+//   return (
+//     <div>
+//       <h3>Available Inventory</h3>
+//       {loading ? (
+//         <p>Loading ...</p>
+//       ) : (
+//         <table>
+//           <thead>
+//             <tr>
+//               <th>Model</th>
+//               <th>Stock</th>
+//             </tr>
+//           </thead>
+//           <tbody>
+//             {data && data.blog.map(blog => (
+//               <tr>
+//                 <td>{blog.blogDescription}</td>
+//               </tr>
+//             ))}
+//           </tbody>
+//         </table>
+//       )}
+//     </div>
+//   );
+// }
+
 export default function main() {
   return (
     <>

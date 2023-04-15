@@ -1,5 +1,4 @@
 import type { NextPage} from 'next'
-import Link from 'next/link'
 import Paragraph from './Paragraph'
 
 const ParAboutHome: NextPage = () => {

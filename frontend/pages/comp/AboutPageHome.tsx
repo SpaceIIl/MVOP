@@ -1,7 +1,4 @@
 import type { NextPage} from 'next'
-import Link from 'next/link'
-import Button from './Button'
-import Paragraph from './Paragraph'
 import Card from './IndexCard'
 
 const AboutPageHome: NextPage = () => {

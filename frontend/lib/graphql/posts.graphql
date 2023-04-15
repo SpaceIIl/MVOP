@@ -1,0 +1,11 @@
+query blog($id: ID) {
+  blog(where: {id: $id}) {
+    blogDescription
+    blogHeading
+    blogRichText {
+      text
+      html
+    }
+    id
+  }
+}

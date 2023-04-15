@@ -35,6 +35,12 @@
   box-shadow:  0px 0px 30px 1px #040404;
 }
 
+.editor {
+  @apply tracking-wide;
+}
+.editor p {
+  margin: 1rem 0;
+}
 button {
   position: relative;
   display: inline-block;

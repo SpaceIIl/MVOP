@@ -1,12 +1,19 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 import Navbar from './comp/Navbar'
 import Footer from './comp/Footer'
 import kraken from './Img/kraken.png'
-import ParagraphBlog from '../pages/comp/ParagraphBlog'
+
+import {useBlogQuery} from '../src/types'
 
 export default function main() {
+
+  const {data, loading} = useBlogQuery({
+    variables: {
+      id: "cle8n6jnp4qma0aw7so5unvbf"
+    }
+  })
+
   return (
     <>
       <Head>
@@ -23,36 +30,7 @@ export default function main() {
         <div className='w-[1080px] mx-auto py-24'>
             <Image className='mx-auto pb-20' src={kraken} alt="" width={800} />
             <div className='w-[640px] mx-auto'>
-              <ParagraphBlog title='Kraken' content='Mezi nejstaršími kryptoměnovými obchodními platformami na světě se řadí burza Kraken, která sídlí v Americe. Byla založena Jesse Powellem a jeho společností Payward, Inc. po dvouletém vývoji v září 2013. Kraken nabízí obchodování s dvacítkou předních kryptoměn a díky dennímu objemu obchodů v rozmezí 100 až 130 milionů dolarů má dobrou likviditu.
-Kraken patří mezi jednu z nejbezpečnějších kryptoměnových burz na světě podle hodnocení ICORating Agency. Tato obchodní platforma uskutečnila celou řadu akvizic menších burz a směnáren, například digitálního tržiště CaVirtEx, CleverCoin a CryptoWatch.
-' />
-              <ParagraphBlog title='Platforma kraken' content='Burzu Kraken můžete najít na adrese trade.kraken.com. Platforma nabízí order book a řadu různých obchodních příkazů (stop loss, stop order, take profit a další).
-Graf vypadá jako upravená verze TradingView a umožňuje vám zanášet poznámky, linie supportu a rezistence nebo Fibonacciho linie. Skalování osy y lze snadno změnit na logaritmické nebo procentuální a je k dispozici řada pokročilých analytických nástrojů.
-Na burze můžete zadávat skryté příkazy (hidden orders), ale pouze bez pákového efektu.
-Kraken také nabízí oficiální mobilní aplikaci, která působí velmi jednoduše a rychle.
-' />
-              <ParagraphBlog title='Obchodování na burze kraken' content='V době psaní článku umožňuje Kraken obchodování s 25 předními kryptoměnami; chybí zde ale známé kryptoměny, jako např. Cardano nebo Polkadot. V květnu 2019 provozovatelé z burzy vyřadili Bitcoin SV na protest proti chování Craiga Wrighta, zakladatele nechvalně známého forku BTC SV.
-Velkou výhodou na Krakenu je podpora fiat transakcí. Burza podporuje nákup i prodej digitálních tokenů nejen za stablecoin USDT, ale i za fiat měny USD, GBP, EUR, CAD a JPY. Ty můžete rovněž vkládat na svůj obchodní účet bankovním převodem.
-Obchodovat můžete také s margin pozicemi a využívat pákový efekt. Jeho velikost se liší podle obchodovaného aktiva. U některých párů (XRP/EUR) je možné využít až 5násobnou páku.
-Prostřednictvím limitních příkazů (limit orders) dovoluje Kraken obchodování BTC a ETH – můžete je obchodovat mezi sebou nebo za klasické měny. Otevření margin pozice burza nepovoluje a minimální vklad činí dolarový ekvivalent 50 BTC nebo 2 500 ETH.
-Prostřednictvím futures je pak možné obchodovat s vysokým, až 50násobným pákovým efektem.
-Platforma nepodporuje přijímání tokenů z ICOs ani nově vzniklých kryptoměn pomocí hard forků.
-' />
-              <ParagraphBlog title='Zabezpečení kryptoměnové burzy Kraken' content='V lednu 2021 agentura ICORating zařadila (v hodnocení více než 150 platforem) Kraken mezi trojici nejbezpečnějších kryptoměnových burz světa. O důkladném zabezpečení platformy svědčí fakt, že úspěšný hackerský útok se jí – na rozdíl např. od burz Mt. Gox nebo nově i Binance – zatím vyhýbá.
-Základem zabezpečení je multifaktorová autentizace (MFA), kterou uživatelé provádějí přes autentizační aplikace na smartphonu: provozovatelé burzy doporučují např. Google Authenticator (dostupný v Google Play i App Store) nebo hardwarové zařízení YubiKey.
-Důležitou bezpečnostní funkcí je Global Setting Lock (GSL). V případě, že útočník dokáže MFA pronikout, znemožní mu GSL změnit heslo a e-mail, vybrat peníze nebo vypnout MFA. Trvání GSL je omezené časově, tzn. po určitém počtu dní (lze nastavit) se všechny tyto funkce zpřístupní.
-Potřebujete-li např. změnit heslo ihned, můžete využít tzv. Master Key, se kterým lze MFA i GSL ochranu obejít.
-Kraken umožňuje krátkodobé uložení kryptoměn, osobní softwarovou peněženku v klasickém slova smyslu ale neposkytují. Samotný provozovatel doporučuje využít hardwarové peněženky. Uložení všech kryptoměn obchodovatelných na Krakenu podporuje např. Trezor.
- ' />
-              <ParagraphBlog title='Poplatky na burze Kraken' content='Ceny poplatků na burze závisejí na celkovém objemu aktiv obchodovaných za posledních 30 dní. Kraken používá kurzový přepočet jednotlivých kryptoměn na americké dolary. Obecně lze říci, že poplatky na burze Kraken jsou velmi nízké a konkurenceschopné.
-Za vklady a výběry peněz se účtují poplatky, které se liší podle měny a způsobu převodu. Burza Kraken přijímá výhradně elektronické transakce.
-Kraken neúčtuje poplatky za swap ani spread; vybraná částka bývá zpravidla připsána na účet během 1 až 5 pracovních dnů.
- ' />
-              <ParagraphBlog title='Výhody a nevýhody burzy' content='Mezi klíčové výhody burzy patří pečlivá zabezpečení a vysoká důvěryhodnost - Kraken se stal první kryptoměnovou burzou, která nechala nezávisle prověřit své finanční rezervy a zveřejnila výsledky auditu. Díky němu je možné spoléhat na dostatečnou kapitalizaci burzy.
-Vysoká likvidita umožňuje na Kraken obchodovat s velkými částkami, zatímco levné vklady (zejména v EUR) pomáhají nováčkům vstoupit do světa kryptoměn. Začátečníci mohou také využít propracovaného průvodce, který vysvětluje burzovní terminologii na praktických příkladech.
-Samozřejmě, Kraken má také své nevýhody. Mezi ty hlavní patří omezený výběr podporovaných kryptoměn a poměrně špatná zákaznická podpora; někteří uživatelé si stěžují, že na odpověď od burzy musí čekat několik dní, dokonce i několik týdnů.
-Kromě toho mají provozovatelé burzy přístup k privátním klíčům uživatelských účtů. Nicméně burza svým klientům doporučuje, aby co nejrychleji převedli své prostředky do zabezpečené aplikace.
-' />
+              <div className='editor' dangerouslySetInnerHTML={{ __html: data?.blog?.blogRichText?.html ?? ""}}></div>
             </div>
         </div>
         <Footer />
