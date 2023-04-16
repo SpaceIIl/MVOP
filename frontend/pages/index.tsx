@@ -29,8 +29,6 @@ export function BlogPage() {
         id: "cle0gf5622jfm0cus2tp7225j"
       }
     })
-    console.log("test")
-    console.log("data: ", data?.blog)
 }
 
 export default function main({}) {
